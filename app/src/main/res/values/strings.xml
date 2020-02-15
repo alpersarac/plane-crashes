@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Plane Crashes</string>
+    <string name="google_maps_api">AIzaSyCC8mRJdBt9ofSeLROKzRdCYIJ1u2YH7ds</string>
+    <string name="interstitial_ad_unit_id_home_page">ca-app-pub-3958354860620549/5461560840</string>
+    <string name="interstitial_ad_unit_id_worst">ca-app-pub-3958354860620549/9135236067</string>
+
+
+
+
+    AIzaSyCC8mRJdBt9ofSeLROKzRdCYIJ1u2YH7ds
+</resources>

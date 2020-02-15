@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_color"
+    android:fillViewport="true">
+
+    <TableLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="PLANE CRASHES"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:layout_weight="0.5"
+                android:paddingTop="10dp"
+                android:orientation="vertical">
+
+
+
+                <ImageView
+                    android:id="@+id/recenty_crashes"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:background="@drawable/roundcorner"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/morecrashes"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:background="@drawable/roundcorner"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="RECENT                                                                                                                                                                                                               CRASHES"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textStyle="bold"
+                    android:text="CRASHES                                                                                                                                                                                                              MORE"
+                    android:textAlignment="center" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        //2.satır-------------------------------------
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:layout_weight="0.5"
+                android:paddingTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/history"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:background="@drawable/roundcorner"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/stat"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:background="@drawable/roundcorner"
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Accident                                                                                                                                                                                                                                                                                                             History to airlines"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textStyle="bold"
+                    android:text="CRASH                                                                                                                                                                                                                                      STATISTICS"
+                    android:textAlignment="center" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        //3.satır---------------------------------------------
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:layout_weight="0.5"
+                android:paddingTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/worst"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:background="@drawable/roundcorner"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/unusual"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:background="@drawable/roundcorner"
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="100                                                                                                                                                                                                                                                       WORST"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textStyle="bold"
+                    android:text="Strange and                                                                                                                                                                                                                                                                               Unusual Accidents"
+                    android:textAlignment="center" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+// 4. satır------------------------------------
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:layout_weight="0.5"
+                android:paddingTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/lastwords"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:background="@drawable/roundcorner"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:background="@drawable/roundcorner"
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="LAST                                                                                                                                                                                                                                                                                                                                    WORDS"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textStyle="bold"
+                    android:text="ACCIDENT                                                                                                                                                                                                                                                                                                             MAP"
+                    android:textAlignment="center" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+----5. satır
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:layout_weight="0.5"
+                android:paddingTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cockpit"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:background="@drawable/roundcorner"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="115dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:id="@+id/soon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="3dp"
+                    android:background="@drawable/roundcorner"
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Rates by                                                                                                                                                                                                                                                                                                                                     model"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textStyle="bold"
+                    android:text="                                                                                                                                                                                                                                                                                                             "
+                    android:textAlignment="center" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom">
+
+
+            <ImageView
+                android:id="@+id/recenty_crashes2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="bottom"
+                android:scaleType="centerInside"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="3dp"
+                android:layout_alignParentBottom="true"
+                android:visibility="invisible"
+                android:paddingTop="3dp"
+                android:background="@drawable/roundcorner"
+
+                />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom">
+
+
+                <TextView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/timesb"
+                    android:text="Alper SARAÇ                                                                                                                            Powered by planecrashinfo.com"
+                    android:layout_gravity="bottom"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_alignParentBottom="true"/>
+
+
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </TableLayout>
+
+</ScrollView>
+
+
