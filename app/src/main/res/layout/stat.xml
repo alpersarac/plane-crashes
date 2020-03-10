@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+
+    >
+
+    <TextView
+        android:id="@+id/title4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RECENTLY CRASHES"
+        android:textAlignment="center"
+        android:fontFamily="@font/lemonmilk"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/person_name_label"
+        android:textAlignment="center"
+        android:textColor="#0174DF"
+        android:fontFamily="@font/lemonmilk"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:background="@drawable/border2"
+        android:layout_marginBottom="5dp"
+        android:text="Some examples of cause categories"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation1"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text="PILOT ERROR"
+        android:textSize="20dp"
+        android:background="@drawable/roundcorner"
+
+
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation25"
+        android:textAlignment="center"
+
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+
+        android:text="-Improper procedure
+-Flying VFR into IFR conditions
+-Controlled flight into terrain
+-Descending below minima
+-Spatial disorientation
+-Premature descent
+-Excessive landing speed
+-Missed runway
+-Fuel starvation
+-Navigation error
+-Wrong runway takeoff/landing
+-Midair collision caused by both pilots"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation2"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text="MECHANICIAL"
+        android:textSize="20dp"
+        android:background="@drawable/roundcorner"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation26"
+
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text="-Engine failure
+-Equipment failure
+-Structural failure
+-Design flaw
+-Maintenance error"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation3"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text="WEATHER"
+        android:textSize="20dp"
+        android:background="@drawable/roundcorner"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation27"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text="-Severe turbulence
+-Windshear
+-Mountain wave
+-Poor visibility
+-Heave rain
+-Severe winds
+-Icing
+-Thunderstorms
+-Lightning strike"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation4"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text="SABOTAGE"
+        android:textSize="20dp"
+        android:background="@drawable/roundcorner"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation28"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text="-Hijacking
+-Shot down
+-Explosive device aboard
+"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation5"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text="OTHER"
+        android:textSize="20dp"
+        android:background="@drawable/roundcorner"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation29"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text="-ATC error
+-Ground crew error
+-Overloaded
+-Improperly loaded cargo
+-Bird strike
+-Fuel contamination
+-Pilot incapacitation
+-Obstruction on runway
+-Midair collision caused by other plane
+-Fire/smoke in flight
+"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation6"
+        android:textAlignment="center"
+        android:textColor="#0174DF"
+        android:fontFamily="@font/lemonmilk"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:background="@drawable/border2"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:text="ACCIDENTS BY CAUSE"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation7"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text=""
+
+
+        />
+
+    <ImageView
+        android:id="@+id/error7"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/cause"
+        android:layout_gravity="center"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation10"
+        android:textAlignment="center"
+        android:textColor="#0174DF"
+        android:fontFamily="@font/lemonmilk"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:background="@drawable/border2"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="50dp"
+        android:text="RAW DATA"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation8"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text=""
+
+
+        />
+
+    <ImageView
+        android:id="@+id/error8"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:src="@drawable/raw"
+        android:layout_gravity="center"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation11"
+        android:textAlignment="center"
+        android:textColor="#0174DF"
+        android:fontFamily="@font/lemonmilk"
+        android:textStyle="italic"
+        android:textSize="12dp"
+        android:background="@drawable/border2"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Number Of Fatal Accidents
+(Civil Aircraft with 19 or More Passengers)"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation9"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text=""
+
+
+        />
+
+    <ImageView
+        android:id="@+id/error0"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/number"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation13"
+        android:textAlignment="center"
+        android:textColor="#0174DF"
+        android:fontFamily="@font/lemonmilk"
+        android:textStyle="italic"
+        android:textSize="12dp"
+        android:background="@drawable/border2"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Number Of Fatalties
+(Civil Aircraft with 19 or More Passengers) )"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation12"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text=""
+
+
+        />
+
+    <ImageView
+        android:id="@+id/error13"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/number2"
+
+        android:layout_gravity="center"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation14"
+        android:textAlignment="center"
+        android:textColor="#0174DF"
+        android:fontFamily="@font/lemonmilk"
+        android:textStyle="italic"
+        android:textSize="12dp"
+        android:background="@drawable/border2"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Fatalities by Phase of Flight"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation15"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text=""
+
+
+        />
+
+    <ImageView
+        android:id="@+id/error12"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/phase_flight"
+        android:layout_gravity="center"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation17"
+        android:textAlignment="center"
+        android:textColor="#0174DF"
+        android:fontFamily="@font/lemonmilk"
+        android:textStyle="italic"
+        android:textSize="12dp"
+        android:background="@drawable/border2"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Which type of flying is safer"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation16"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text=""
+
+
+        />
+
+    <ImageView
+        android:id="@+id/error16"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:src="@drawable/type"
+        android:layout_gravity="center"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation20"
+        android:textAlignment="center"
+        android:textColor="#0174DF"
+        android:fontFamily="@font/lemonmilk"
+        android:textStyle="italic"
+        android:textSize="12dp"
+        android:background="@drawable/border2"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Odds of being involved in a fatal accident"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation18"
+
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text=""
+
+
+        />
+
+    <ImageView
+        android:id="@+id/error17"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:src="@drawable/odds"
+
+        android:layout_gravity="center"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation21"
+        android:textAlignment="center"
+        android:textColor="#0174DF"
+        android:fontFamily="@font/lemonmilk"
+        android:textStyle="italic"
+        android:textSize="12dp"
+        android:background="@drawable/border2"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Survival rate of passengers on
+aircraft involved in fatal accidents
+carrying 10+ passengers"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/explanation22"
+
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/lemonmilk"
+        android:text=""
+
+
+        />
+
+    <ImageView
+        android:id="@+id/error18"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:src="@drawable/stat"
+
+        android:layout_gravity="center"
+
+
+        />
+
+</LinearLayout>
+</ScrollView>
